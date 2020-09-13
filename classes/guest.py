@@ -4,3 +4,6 @@ class Guest:
         self.name = input_name
         self.wallet = input_wallet
         self.fav_song = input_fav_song
+
+    def reduce_wallet(self,amount):
+        self.wallet -= amount
